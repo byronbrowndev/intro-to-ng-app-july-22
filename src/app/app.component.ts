@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'intro-to-ng-app-july-22';
+  // change this name to The Best App Ever
+  title = 'Pokemon App and Other Stuff';
+  author: string = 'byronius brownington IV';
 }
