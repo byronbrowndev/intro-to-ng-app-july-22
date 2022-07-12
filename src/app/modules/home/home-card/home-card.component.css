@@ -8,6 +8,7 @@
 mat-card {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 mat-icon {
