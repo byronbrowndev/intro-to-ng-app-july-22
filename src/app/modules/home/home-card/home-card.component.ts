@@ -8,6 +8,14 @@ import { lorem30 } from '../utils/text';
 })
 export class HomeCardComponent implements OnInit {
 
+
+  // x add a ToH component
+  // x add an exp component
+  // x add an pkmn component
+  // add routing at the root
+  // make homeCards clickable and route
+  // do lazy loading
+
   // 3 members (string)
   // holds title
   @Input() title: string = 'Feature';
