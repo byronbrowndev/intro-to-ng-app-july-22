@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HomeCardData } from '../models/';
 
 @Component({
   selector: 'app-home',
@@ -7,11 +8,7 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  // talk ternary
-  // talk truthy and falsy
-  // give homecard and interface
-
-  homeCardsData: any = [
+  homeCardsData: HomeCardData[] = [
     {
       title: 'Pokemon',
       icon: 'catching_pokemon'
