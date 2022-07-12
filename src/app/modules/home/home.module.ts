@@ -23,9 +23,6 @@ export const homeRoutes: Routes = [
     MatCardModule,
     MatIconModule,
     RouterModule.forChild(homeRoutes),
-  ],
-  exports: [
-    HomeComponent
   ]
 })
 export class HomeModule { }

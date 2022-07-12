@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
-import { HomeModule } from './modules/home/home.module';
 
 
 @NgModule({
@@ -16,7 +15,6 @@ import { HomeModule } from './modules/home/home.module';
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
-    HomeModule,
     AppRoutingModule
   ],
   providers: [],
