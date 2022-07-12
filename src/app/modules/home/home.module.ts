@@ -4,8 +4,14 @@ import { HomeComponent } from './home/home.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { HomeCardComponent } from './home-card/home-card.component';
+import { RouterModule, Routes } from '@angular/router';
 
-
+export const homeRoutes: Routes = [
+  {
+    path: '',
+    component: HomeComponent,
+  }
+]
 
 @NgModule({
   declarations: [
@@ -15,7 +21,8 @@ import { HomeCardComponent } from './home-card/home-card.component';
   imports: [
     CommonModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    RouterModule.forChild(homeRoutes),
   ],
   exports: [
     HomeComponent
