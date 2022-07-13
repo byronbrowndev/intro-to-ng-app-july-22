@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class PokemonTeamComponent implements OnInit {
 
-  @Input() currentPokemonTeam: any | undefined;
+  @Input() currentPokemonTeam: any | undefined = [];
 
   constructor() { }
 
